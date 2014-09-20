@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Screen</key>
+	<array>
+		<dict>
+			<key>eventName</key>
+			<string>Restaurant</string>
+			<key>image</key>
+			<string>Home-Screen-Elements_0002_Ellipse-1</string>
+			<key>position</key>
+			<dict>
+				<key>x</key>
+				<integer>50</integer>
+				<key>y</key>
+				<integer>200</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>Drawer</key>
+	<array/>
+</dict>
+</plist>

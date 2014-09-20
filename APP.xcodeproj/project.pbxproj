@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208EC17419C919B000B13177 /* KAPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 208EC17319C919B000B13177 /* KAPlan.m */; };
+		BE0B58CD19C52B3300D582C9 /* KADraggableIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0B58CC19C52B3300D582C9 /* KADraggableIcon.m */; };
+		BE0B58CF19C535F300D582C9 /* DraggableIcons.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE0B58CE19C535F300D582C9 /* DraggableIcons.plist */; };
+		BE0C02DD198AFDE8004FAABF /* PlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0C02DC198AFDE8004FAABF /* PlanViewController.m */; };
 		BEF965361989B6C900791BF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF965351989B6C900791BF6 /* Foundation.framework */; };
 		BEF965381989B6C900791BF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF965371989B6C900791BF6 /* CoreGraphics.framework */; };
 		BEF9653A1989B6C900791BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF965391989B6C900791BF6 /* UIKit.framework */; };
@@ -19,6 +23,7 @@
 		BEF965511989B6CA00791BF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF965391989B6C900791BF6 /* UIKit.framework */; };
 		BEF965591989B6CA00791BF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEF965571989B6CA00791BF6 /* InfoPlist.strings */; };
 		BEF9655B1989B6CA00791BF6 /* APPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF9655A1989B6CA00791BF6 /* APPTests.m */; };
+		BEF965651989B70200791BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF965641989B70200791BF6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		208EC17219C919B000B13177 /* KAPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAPlan.h; sourceTree = "<group>"; };
+		208EC17319C919B000B13177 /* KAPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAPlan.m; sourceTree = "<group>"; };
+		BE0B58CB19C52B3300D582C9 /* KADraggableIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KADraggableIcon.h; sourceTree = "<group>"; };
+		BE0B58CC19C52B3300D582C9 /* KADraggableIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KADraggableIcon.m; sourceTree = "<group>"; };
+		BE0B58CE19C535F300D582C9 /* DraggableIcons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DraggableIcons.plist; sourceTree = "<group>"; };
+		BE0C02DB198AFDE8004FAABF /* PlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanViewController.h; sourceTree = "<group>"; };
+		BE0C02DC198AFDE8004FAABF /* PlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanViewController.m; sourceTree = "<group>"; };
 		BEF965321989B6C900791BF6 /* APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF965351989B6C900791BF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BEF965371989B6C900791BF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,7 @@
 		BEF965561989B6CA00791BF6 /* APPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APPTests-Info.plist"; sourceTree = "<group>"; };
 		BEF965581989B6CA00791BF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEF9655A1989B6CA00791BF6 /* APPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPTests.m; sourceTree = "<group>"; };
+		BEF965641989B70200791BF6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +87,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEF8470819C91C580000D5F1 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				208EC17219C919B000B13177 /* KAPlan.h */,
+				208EC17319C919B000B13177 /* KAPlan.m */,
+			);
+			name = "Data Objects";
+			sourceTree = "<group>";
+		};
+		BEF8470919C91D170000D5F1 /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				BE0B58CB19C52B3300D582C9 /* KADraggableIcon.h */,
+				BE0B58CC19C52B3300D582C9 /* KADraggableIcon.m */,
+			);
+			name = "UI Elements";
+			sourceTree = "<group>";
+		};
+		BEF8470A19C91D420000D5F1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C02DB198AFDE8004FAABF /* PlanViewController.h */,
+				BE0C02DC198AFDE8004FAABF /* PlanViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		BEF965291989B6C900791BF6 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +147,13 @@
 		BEF9653B1989B6C900791BF6 /* APP */ = {
 			isa = PBXGroup;
 			children = (
+				BEF965641989B70200791BF6 /* Main.storyboard */,
 				BEF965441989B6CA00791BF6 /* AppDelegate.h */,
 				BEF965451989B6CA00791BF6 /* AppDelegate.m */,
+				BEF8470A19C91D420000D5F1 /* View Controllers */,
+				BEF8470819C91C580000D5F1 /* Data Objects */,
+				BEF8470919C91D170000D5F1 /* UI Elements */,
+				BE0B58CE19C535F300D582C9 /* DraggableIcons.plist */,
 				BEF965471989B6CA00791BF6 /* Images.xcassets */,
 				BEF9653C1989B6C900791BF6 /* Supporting Files */,
 			);
@@ -219,8 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF965651989B70200791BF6 /* Main.storyboard in Resources */,
 				BEF965401989B6C900791BF6 /* InfoPlist.strings in Resources */,
 				BEF965481989B6CA00791BF6 /* Images.xcassets in Resources */,
+				BE0B58CF19C535F300D582C9 /* DraggableIcons.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +288,9 @@
 			files = (
 				BEF965461989B6CA00791BF6 /* AppDelegate.m in Sources */,
 				BEF965421989B6CA00791BF6 /* main.m in Sources */,
+				BE0B58CD19C52B3300D582C9 /* KADraggableIcon.m in Sources */,
+				208EC17419C919B000B13177 /* KAPlan.m in Sources */,
+				BE0C02DD198AFDE8004FAABF /* PlanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +487,7 @@
 				BEF965601989B6CA00791BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEF965611989B6CA00791BF6 /* Build configuration list for PBXNativeTarget "APPTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +496,7 @@
 				BEF965631989B6CA00791BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

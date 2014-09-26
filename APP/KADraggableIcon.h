@@ -8,17 +8,28 @@
 
 #import <UIKit/UIKit.h>
 #define KAInDrawer = NSIntegerMax
+#define KAInGrid = NSIntegerMax-1
 
 @protocol KADraggableIconDelegate;
 
 @interface KADraggableIcon : UIImageView <UIGestureRecognizerDelegate>
 
+#pragma mark - Constructors
 - (id)initWithDictionary:(NSDictionary*)dict;
 
-@property (nonatomic, assign) id <KADraggableIconDelegate> delegate;
+#pragma mark - Instance Variables
+@property (nonatomic, assign) id <KADraggableIconDelegate> delegate;    // Delegate
 
 @property (strong, nonatomic) NSString* eventName;
-@property (nonatomic) CGPoint position;             // Stores location of icon, stores (KAInDrawer, <Drawer Order Location>) if in drawer
+@property (nonatomic) CGPoint position;             // Stores location of icon, stores (KAInDrawer, <Drawer Order Location>) if in drawer,
+                                                    // stores (KAInGrid, <Grid Position>) if in gridded screen
+
+#pragma mark - Instance Methods
+- (NSInteger)resolveGridInView:(UIView*)view;                           // Finds the closest grid location
+
+#pragma mark - Class Methods
++ (void) setGridMode:(BOOL)mode;
+- (BOOL) getGridMode;
 
 @end
 

@@ -44,7 +44,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="ScreenDraggableView" destination="4aJ-Vd-ZgR" id="TmS-EU-ndL"/>
+                        <outlet property="ScreenDraggableView" destination="4aJ-Vd-ZgR" id="hXv-c6-eaH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qAL-Ic-xGa" userLabel="First Responder" sceneMemberID="firstResponder"/>

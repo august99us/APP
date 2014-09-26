@@ -9,7 +9,7 @@
 #import "KADraggableIcon.h"
 
 #define TAPPED_SIZE_INCREASE 1.3
-#define EXPANSION_TIME 0.1
+#define EXPANSION_TIME 0.05
 
 @interface KADraggableIcon ()
 
@@ -17,6 +17,8 @@
 @property (nonatomic) CGFloat draggingPreviousY;
 
 @end
+
+static BOOL gridMode = true;
 
 @implementation KADraggableIcon
 
@@ -144,6 +146,12 @@
     }
 }
 
+- (NSInteger) resolveGridInView:(UIView *)view
+{
+    
+    return 0;
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
@@ -152,5 +160,15 @@
     // Drawing code
 }
 */
+
++ (void) setGridMode:(BOOL)mode
+{
+    gridMode = mode;
+}
+
++ (BOOL) getGridMode;
+{
+    return gridMode;
+}
 
 @end
